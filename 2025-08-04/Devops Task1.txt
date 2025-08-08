@@ -1,0 +1,49 @@
+1. Difference between Waterfall, Agile, DevOps, and DevSecOps:
+
+- Waterfall: This is like following a strict step-by-step plan. Once you finish one stage, you move on to the next. It's predictable but can be slow if there are issues, as you can’t easily go back and change things once they’re done.
+  
+- Agile: Picture a team that adjusts and adapts as they go. Agile is more flexible, working in smaller iterations (called sprints). It’s about responding to change and improving as you go along, rather than sticking to a rigid plan.
+  
+- DevOps: This is all about collaboration between development and operations teams. The goal is to make software delivery and deployment faster and more reliable, with an emphasis on automation and continuous improvement.
+  
+- DevSecOps: It's like DevOps but with security built in from the start. Instead of adding security at the end of the process, it’s integrated throughout, ensuring that security isn't an afterthought.
+
+---
+
+2. What is VCS/SCM and Types?
+
+- VCS (Version Control System) is a tool that tracks changes to code over time. It lets developers keep track of different versions of their code, making it easier to collaborate and roll back to previous versions if needed.
+
+- SCM (Source Code Management) is often used interchangeably with VCS, but it refers to the broader set of practices for managing source code changes and versions.
+
+Types:
+- Centralized Version Control (like SVN): All the code is stored in a central place. Developers commit changes to this central repository.
+- Distributed Version Control (like Git): Every developer has a full copy of the repository on their machine, making it faster and more flexible to work offline and collaborate.
+
+---
+
+3. Difference between LVCS, CVCS, and DVCS:
+
+- LVCS (Local Version Control System): This is the simplest version where the changes are tracked on a single machine. It’s not often used for large teams but can work for smaller projects.
+  
+- CVCS (Centralized Version Control System): The repository is centralized, and all developers commit their changes to it. Tools like SVN fall under this category. It’s great for centralized control but not ideal for working offline.
+
+- DVCS (Distributed Version Control System): Each developer has a copy of the entire repository, so they can work independently and later sync changes with others. Git and Mercurial are examples. This system allows for more flexibility and offline work.
+
+---
+
+4. List of Tools Available in LVCS, CVCS, and DVCS:
+
+- LVCS: 
+  - RCS (Revision Control System)
+
+- CVCS:
+  - SVN (Apache Subversion)
+  - Perforce
+  
+- DVCS:
+  - Git
+  - Mercurial
+  - Bazaar
+
+These tools help keep your project organized, track changes, and collaborate with others effectively, each with its own strengths and workflows.
